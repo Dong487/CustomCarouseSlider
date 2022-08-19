@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5DD7BE028AFFB3E003C122E /* CustomCarouseSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD7BDF28AFFB3E003C122E /* CustomCarouseSliderApp.swift */; };
+		F5DD7BE228AFFB3E003C122E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD7BE128AFFB3E003C122E /* ContentView.swift */; };
+		F5DD7BE428AFFB41003C122E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD7BE328AFFB41003C122E /* Assets.xcassets */; };
+		F5DD7BE728AFFB41003C122E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DD7BE628AFFB41003C122E /* Preview Assets.xcassets */; };
+		F5DD7BF128AFFB41003C122E /* CustomCarouseSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD7BF028AFFB41003C122E /* CustomCarouseSliderTests.swift */; };
+		F5DD7BFB28AFFB41003C122E /* CustomCarouseSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD7BFA28AFFB41003C122E /* CustomCarouseSliderUITests.swift */; };
+		F5DD7BFD28AFFB41003C122E /* CustomCarouseSliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD7BFC28AFFB41003C122E /* CustomCarouseSliderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5DD7BED28AFFB41003C122E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5DD7BD428AFFB3E003C122E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5DD7BDB28AFFB3E003C122E;
+			remoteInfo = CustomCarouseSlider;
+		};
+		F5DD7BF728AFFB41003C122E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5DD7BD428AFFB3E003C122E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5DD7BDB28AFFB3E003C122E;
+			remoteInfo = CustomCarouseSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5DD7BDC28AFFB3E003C122E /* CustomCarouseSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCarouseSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DD7BDF28AFFB3E003C122E /* CustomCarouseSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarouseSliderApp.swift; sourceTree = "<group>"; };
+		F5DD7BE128AFFB3E003C122E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5DD7BE328AFFB41003C122E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5DD7BE628AFFB41003C122E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5DD7BEC28AFFB41003C122E /* CustomCarouseSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCarouseSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DD7BF028AFFB41003C122E /* CustomCarouseSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarouseSliderTests.swift; sourceTree = "<group>"; };
+		F5DD7BF628AFFB41003C122E /* CustomCarouseSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCarouseSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DD7BFA28AFFB41003C122E /* CustomCarouseSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarouseSliderUITests.swift; sourceTree = "<group>"; };
+		F5DD7BFC28AFFB41003C122E /* CustomCarouseSliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarouseSliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5DD7BD928AFFB3E003C122E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD7BE928AFFB41003C122E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD7BF328AFFB41003C122E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5DD7BD328AFFB3E003C122E = {
+			isa = PBXGroup;
+			children = (
+				F5DD7BDE28AFFB3E003C122E /* CustomCarouseSlider */,
+				F5DD7BEF28AFFB41003C122E /* CustomCarouseSliderTests */,
+				F5DD7BF928AFFB41003C122E /* CustomCarouseSliderUITests */,
+				F5DD7BDD28AFFB3E003C122E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5DD7BDD28AFFB3E003C122E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD7BDC28AFFB3E003C122E /* CustomCarouseSlider.app */,
+				F5DD7BEC28AFFB41003C122E /* CustomCarouseSliderTests.xctest */,
+				F5DD7BF628AFFB41003C122E /* CustomCarouseSliderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DD7BDE28AFFB3E003C122E /* CustomCarouseSlider */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD7BDF28AFFB3E003C122E /* CustomCarouseSliderApp.swift */,
+				F5DD7BE128AFFB3E003C122E /* ContentView.swift */,
+				F5DD7BE328AFFB41003C122E /* Assets.xcassets */,
+				F5DD7BE528AFFB41003C122E /* Preview Content */,
+			);
+			path = CustomCarouseSlider;
+			sourceTree = "<group>";
+		};
+		F5DD7BE528AFFB41003C122E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD7BE628AFFB41003C122E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5DD7BEF28AFFB41003C122E /* CustomCarouseSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD7BF028AFFB41003C122E /* CustomCarouseSliderTests.swift */,
+			);
+			path = CustomCarouseSliderTests;
+			sourceTree = "<group>";
+		};
+		F5DD7BF928AFFB41003C122E /* CustomCarouseSliderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD7BFA28AFFB41003C122E /* CustomCarouseSliderUITests.swift */,
+				F5DD7BFC28AFFB41003C122E /* CustomCarouseSliderUITestsLaunchTests.swift */,
+			);
+			path = CustomCarouseSliderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5DD7BDB28AFFB3E003C122E /* CustomCarouseSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DD7C0028AFFB41003C122E /* Build configuration list for PBXNativeTarget "CustomCarouseSlider" */;
+			buildPhases = (
+				F5DD7BD828AFFB3E003C122E /* Sources */,
+				F5DD7BD928AFFB3E003C122E /* Frameworks */,
+				F5DD7BDA28AFFB3E003C122E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCarouseSlider;
+			productName = CustomCarouseSlider;
+			productReference = F5DD7BDC28AFFB3E003C122E /* CustomCarouseSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5DD7BEB28AFFB41003C122E /* CustomCarouseSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DD7C0328AFFB41003C122E /* Build configuration list for PBXNativeTarget "CustomCarouseSliderTests" */;
+			buildPhases = (
+				F5DD7BE828AFFB41003C122E /* Sources */,
+				F5DD7BE928AFFB41003C122E /* Frameworks */,
+				F5DD7BEA28AFFB41003C122E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5DD7BEE28AFFB41003C122E /* PBXTargetDependency */,
+			);
+			name = CustomCarouseSliderTests;
+			productName = CustomCarouseSliderTests;
+			productReference = F5DD7BEC28AFFB41003C122E /* CustomCarouseSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5DD7BF528AFFB41003C122E /* CustomCarouseSliderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5DD7C0628AFFB41003C122E /* Build configuration list for PBXNativeTarget "CustomCarouseSliderUITests" */;
+			buildPhases = (
+				F5DD7BF228AFFB41003C122E /* Sources */,
+				F5DD7BF328AFFB41003C122E /* Frameworks */,
+				F5DD7BF428AFFB41003C122E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5DD7BF828AFFB41003C122E /* PBXTargetDependency */,
+			);
+			name = CustomCarouseSliderUITests;
+			productName = CustomCarouseSliderUITests;
+			productReference = F5DD7BF628AFFB41003C122E /* CustomCarouseSliderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5DD7BD428AFFB3E003C122E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F5DD7BDB28AFFB3E003C122E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F5DD7BEB28AFFB41003C122E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F5DD7BDB28AFFB3E003C122E;
+					};
+					F5DD7BF528AFFB41003C122E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F5DD7BDB28AFFB3E003C122E;
+					};
+				};
+			};
+			buildConfigurationList = F5DD7BD728AFFB3E003C122E /* Build configuration list for PBXProject "CustomCarouseSlider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5DD7BD328AFFB3E003C122E;
+			productRefGroup = F5DD7BDD28AFFB3E003C122E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5DD7BDB28AFFB3E003C122E /* CustomCarouseSlider */,
+				F5DD7BEB28AFFB41003C122E /* CustomCarouseSliderTests */,
+				F5DD7BF528AFFB41003C122E /* CustomCarouseSliderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5DD7BDA28AFFB3E003C122E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD7BE728AFFB41003C122E /* Preview Assets.xcassets in Resources */,
+				F5DD7BE428AFFB41003C122E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD7BEA28AFFB41003C122E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD7BF428AFFB41003C122E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5DD7BD828AFFB3E003C122E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD7BE228AFFB3E003C122E /* ContentView.swift in Sources */,
+				F5DD7BE028AFFB3E003C122E /* CustomCarouseSliderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD7BE828AFFB41003C122E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD7BF128AFFB41003C122E /* CustomCarouseSliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DD7BF228AFFB41003C122E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DD7BFB28AFFB41003C122E /* CustomCarouseSliderUITests.swift in Sources */,
+				F5DD7BFD28AFFB41003C122E /* CustomCarouseSliderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5DD7BEE28AFFB41003C122E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5DD7BDB28AFFB3E003C122E /* CustomCarouseSlider */;
+			targetProxy = F5DD7BED28AFFB41003C122E /* PBXContainerItemProxy */;
+		};
+		F5DD7BF828AFFB41003C122E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5DD7BDB28AFFB3E003C122E /* CustomCarouseSlider */;
+			targetProxy = F5DD7BF728AFFB41003C122E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5DD7BFE28AFFB41003C122E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5DD7BFF28AFFB41003C122E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5DD7C0128AFFB41003C122E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomCarouseSlider/Preview Content\"";
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.CustomCarouseSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5DD7C0228AFFB41003C122E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomCarouseSlider/Preview Content\"";
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.CustomCarouseSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5DD7C0428AFFB41003C122E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.CustomCarouseSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCarouseSlider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomCarouseSlider";
+			};
+			name = Debug;
+		};
+		F5DD7C0528AFFB41003C122E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.CustomCarouseSliderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomCarouseSlider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomCarouseSlider";
+			};
+			name = Release;
+		};
+		F5DD7C0728AFFB41003C122E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.CustomCarouseSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCarouseSlider;
+			};
+			name = Debug;
+		};
+		F5DD7C0828AFFB41003C122E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.CustomCarouseSliderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomCarouseSlider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5DD7BD728AFFB3E003C122E /* Build configuration list for PBXProject "CustomCarouseSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD7BFE28AFFB41003C122E /* Debug */,
+				F5DD7BFF28AFFB41003C122E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DD7C0028AFFB41003C122E /* Build configuration list for PBXNativeTarget "CustomCarouseSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD7C0128AFFB41003C122E /* Debug */,
+				F5DD7C0228AFFB41003C122E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DD7C0328AFFB41003C122E /* Build configuration list for PBXNativeTarget "CustomCarouseSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD7C0428AFFB41003C122E /* Debug */,
+				F5DD7C0528AFFB41003C122E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5DD7C0628AFFB41003C122E /* Build configuration list for PBXNativeTarget "CustomCarouseSliderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5DD7C0728AFFB41003C122E /* Debug */,
+				F5DD7C0828AFFB41003C122E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5DD7BD428AFFB3E003C122E /* Project object */;
+}
